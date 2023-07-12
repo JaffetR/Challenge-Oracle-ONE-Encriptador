@@ -1,0 +1,110 @@
+*{
+    background: #f3f5fc;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    overflow-y: hidden;
+}
+.titulo {
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    font-size: 40px;
+    font-family: "inter";
+    color: #0a3871;
+}
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    width: 70%;
+}
+
+.text-area {
+    display: flex;
+    height: 400px;
+    border-color: #0a3871;
+    border-radius: 15px;
+    color: #0a3871;
+    margin-top: 30px;
+    padding: 2px;
+    text-transform:lowercase;
+    align-items: center;
+    justify-content: center;
+}
+::placeholder {
+    color: #0a3871;
+}
+.text-area:focus {
+    outline: none;
+}
+.mensaje {
+    height: 630px;
+    background: white;
+    background-image: url("./imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 20px;
+    color: #0a3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 30px;
+    position: fixed;
+
+}
+.mensaje:focus {
+    outline: none;
+}
+.botones {
+    display: flex;
+    margin-top: 18px;
+}
+.btn-desencriptar {
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 310px;
+}
+.btn-encriptar {
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    width: 310px;
+}
+.btn-desencriptar:hover,.btn-encriptar:hover,.copiar:hover {
+    background-color: #0a3871;
+    color: white;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.541);
+    font-weight: bolder;
+}
+.copiar {
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 120px;
+    margin-top: 565px;
+    position: absolute;
+    width: 336px;
+}
+.informacion{
+    color: #495057;
+    text-align: center;
+    
+}
